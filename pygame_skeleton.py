@@ -37,7 +37,7 @@ class Game:
 
     def initialise_images(self):
         for source in IMAGES:
-            IMAGES[source] = pygame.image.load(os.path.join('images', 'bla.png'))
+            IMAGES[source] = pygame.image.load(os.path.join('images', source))
 
     def initialise_game(self):
 
